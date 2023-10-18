@@ -258,6 +258,11 @@ nav > a:hover {
 .first-section {
   background-color: #2e2f42;
   padding: 188px 0;
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background.jpeg); lub background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background.jpeg);
+ max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .footer-paragraph {
@@ -273,6 +278,8 @@ img {
 .headerhtml {
   border-bottom: 1px solid #e7e9fc;
   height: 72px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container-header {
   display: flex;
@@ -401,4 +408,14 @@ img {
 .address {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+.icon-container{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px; 
+  margin-bottom: 8px;
+   
 }
