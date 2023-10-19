@@ -204,7 +204,7 @@ nav > a:hover {
 .portfoliobutton:focus,
 .portfoliobutton:active {
   color: #ffffff;
-  box-shadow o wartości 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
 }
 .imagetext {
   font-weight: 500;
@@ -431,10 +431,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   width: 40px;
   height: 40px; 
 }
-.sm-link{
-  width: 100%;
-  height: 100%;
-  background-color: var(--primary-brand-color);
+.sm-link {
+width: 100%;
+height: 100%;
+background-color: var(--primary-brand-color);
 border-radius: 50%;
 display: flex;
 align-items: center; 
@@ -453,11 +453,12 @@ fill: var(--light-color);
   padding-top: 120px;
   padding-bottom: 120px; 
 }
-.customers{
+.customers {
   font-size: 36px;
   line-height: 1.11;
   color: var(--dark-color);
-margin-bottom: 72px;
+  margin-bottom: 72px;
+  text-align: center;
 }
 .clients-list{
   display: flex;
@@ -489,6 +490,7 @@ margin-bottom: 72px;
 .customer-icon{
   fill: currentColor;
 }
+
 .footer-container{
   display: flex;
   align-items: baseline;
