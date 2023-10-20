@@ -518,12 +518,12 @@ fill: var(--light-color);
   padding-left: 255px;
 }
 .footer-flex {
-gap: 120px;
+margin-right: 120px;
 display: flex;
 align-items: baseline;
 }
 .footer-first-subcontainer {
-gap: 120px;
+margin-right: 120px;
 }
 .portfoliobutton:hover,
 .portfoliobutton:visited{
