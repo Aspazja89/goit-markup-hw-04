@@ -427,6 +427,13 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   list-style: none;
   padding-top: 8px;
 }
+.smfooterlist{
+    display: flex;
+  justify-content: center;
+  gap: 16px;
+  list-style: none;
+  padding-top: 8px;
+}
 .social-media-li{
   width: 40px;
   height: 40px; 
