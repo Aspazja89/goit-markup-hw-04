@@ -440,9 +440,17 @@ display: flex;
 align-items: center; 
 justify-content: center;
 }
-.sm-link:hover,
-.sm-link:focus,
-.sm-link:visited {
+.section-four-link:hover,
+.section-four-link:focus,
+.section-four-link:visited {
+background-color: #404bbf;
+}
+
+
+.footer-link:hover,
+.footer-link:focus,
+.footer-link:active,
+.footer-link:visited {
 background-color: #31d0aa;
 }
 .sm-icon{
@@ -502,8 +510,8 @@ gap: 120px;
 display: flex;
 align-items: baseline;
 }
-.footer-first-subcontainer{
-  gap: 120px;
+.footer-first-subcontainer {
+gap: 120px;
 }
 .portfoliobutton:hover,
 .portfoliobutton:visited{
