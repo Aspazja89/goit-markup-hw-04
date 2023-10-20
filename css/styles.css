@@ -490,21 +490,17 @@ fill: var(--light-color);
 .customer-icon{
   fill: currentColor;
 }
-
-.footer-container{
-  display: flex;
-  align-items: baseline;
-  gap: 120px;
-}
-.sm-footer{
-
-}
 .sm-footer-p{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white-background-color);
-  margin-bottom: 16px;
-  
+  margin-bottom: 16px;  
+  padding-left: 240px;
+}
+.footer-flex {
+gap: 120px;
+display: flex;
+align-items: baseline;
 }
