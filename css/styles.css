@@ -457,9 +457,7 @@ background-color: #404bbf;
 
 
 .footer-link:hover,
-.footer-link:focus,
-.footer-link:active,
-.footer-link:visited {
+.footer-link:focus{
 background-color: #31d0aa;
 }
 .sm-icon{
