@@ -264,6 +264,7 @@ nav > a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: center;
 }
 
 .footer-paragraph {
@@ -424,7 +425,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   justify-content: center;
   gap: 24px;
   list-style: none;
-  padding-top: 8px;
 }
 .smfooterlist{
     display: flex;
@@ -514,7 +514,6 @@ fill: var(--light-color);
   letter-spacing: 0.02em;
   color: var(--white-background-color);
   margin-bottom: 16px;  
-  padding-left: 255px;
 }
 .footer-flex {
 margin-right: 120px;
